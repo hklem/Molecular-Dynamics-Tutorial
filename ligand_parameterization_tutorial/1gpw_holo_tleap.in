@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB #Source leaprc file for ff14SB protein force field
+source leaprc.gaff #Source leaprc file for gaff, general force field for organic molecules/ligand
+source leaprc.water.tip3p #Source leaprc file for TIP3P water model
+lig = loadmol2 prfar.mol2 #Load the file for the ligand
+loadamberparams prfar.frcmod #Load the additional frcmod file for ligand
+mol = loadpdb holo_1gpw_no_ions_not_solvated.pdb #Load PDB file for protein-ligand complex
+solvatebox mol TIP3PBOX 12 #Solvate the complex with a cubic water box
+savepdb mol holo_1gpw_no_ions_solvated.pdb
+saveamberparm mol holo_1gpw_solvated.prmtop holo_1gpw_solvated.rst7 #Save AMBER topology and coordinate files
+quit #Quit tleap program

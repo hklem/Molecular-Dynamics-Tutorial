@@ -1,0 +1,317 @@
+-I: Adding /Applications/amber20/dat/leap/prep to search path.
+-I: Adding /Applications/amber20/dat/leap/lib to search path.
+-I: Adding /Applications/amber20/dat/leap/parm to search path.
+-I: Adding /Applications/amber20/dat/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source 1gpw_holo_tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./1gpw_holo_tleap.in
+----- Source: /Applications/amber20/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /Applications/amber20/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /Applications/amber20/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /Applications/amber20/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /Applications/amber20/dat/leap/lib/amino12.lib
+Loading library: /Applications/amber20/dat/leap/lib/aminoct12.lib
+Loading library: /Applications/amber20/dat/leap/lib/aminont12.lib
+----- Source: /Applications/amber20/dat/leap/cmd/leaprc.gaff
+----- Source of /Applications/amber20/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /Applications/amber20/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+----- Source: /Applications/amber20/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /Applications/amber20/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /Applications/amber20/dat/leap/lib/atomic_ions.lib
+Loading library: /Applications/amber20/dat/leap/lib/solvents.lib
+Loading parameters: /Applications/amber20/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /Applications/amber20/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /Applications/amber20/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /Applications/amber20/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading Mol2 file: ./prfar.mol2
+Reading MOLECULE named PRF
+Loading parameters: ./prfar.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading PDB file: ./holo_1gpw_no_ions_not_solvated.pdb
+
+/Applications/amber20/bin/teLeap: Warning!
+Name change in pdb file residue 1 ;
+this residue is split into PRF and MET.
+
+/Applications/amber20/bin/teLeap: Note.
+1 residues had naming warnings.
+Thus, there are split residues;
+residue sequence numbers will not correspond to those in the pdb.
+
+/Applications/amber20/bin/teLeap: Warning!
+Unknown residue: PRF   number: 0   type: Terminal/beginning
+..relaxing end constraints to try for a dbase match
+
+/Applications/amber20/bin/teLeap: Warning!
+  -no luck
+Creating new UNIT for residue: PRF sequence: 1
+Created a new atom named: C1 within residue: .R<PRF 1>
+Created a new atom named: C2 within residue: .R<PRF 1>
+Created a new atom named: C3 within residue: .R<PRF 1>
+Created a new atom named: C4 within residue: .R<PRF 1>
+Created a new atom named: C5 within residue: .R<PRF 1>
+Created a new atom named: C6 within residue: .R<PRF 1>
+Created a new atom named: C7 within residue: .R<PRF 1>
+Created a new atom named: C8 within residue: .R<PRF 1>
+Created a new atom named: C9 within residue: .R<PRF 1>
+Created a new atom named: C10 within residue: .R<PRF 1>
+Created a new atom named: C11 within residue: .R<PRF 1>
+Created a new atom named: C12 within residue: .R<PRF 1>
+Created a new atom named: C13 within residue: .R<PRF 1>
+Created a new atom named: C14 within residue: .R<PRF 1>
+Created a new atom named: C15 within residue: .R<PRF 1>
+Created a new atom named: N1 within residue: .R<PRF 1>
+Created a new atom named: N2 within residue: .R<PRF 1>
+Created a new atom named: N3 within residue: .R<PRF 1>
+Created a new atom named: N4 within residue: .R<PRF 1>
+Created a new atom named: N5 within residue: .R<PRF 1>
+Created a new atom named: O1 within residue: .R<PRF 1>
+Created a new atom named: O10 within residue: .R<PRF 1>
+Created a new atom named: O11 within residue: .R<PRF 1>
+Created a new atom named: O12 within residue: .R<PRF 1>
+Created a new atom named: O13 within residue: .R<PRF 1>
+Created a new atom named: O14 within residue: .R<PRF 1>
+Created a new atom named: O15 within residue: .R<PRF 1>
+Created a new atom named: O2 within residue: .R<PRF 1>
+Created a new atom named: O3 within residue: .R<PRF 1>
+Created a new atom named: O4 within residue: .R<PRF 1>
+Created a new atom named: O5 within residue: .R<PRF 1>
+Created a new atom named: O6 within residue: .R<PRF 1>
+Created a new atom named: O7 within residue: .R<PRF 1>
+Created a new atom named: O8 within residue: .R<PRF 1>
+Created a new atom named: O9 within residue: .R<PRF 1>
+Created a new atom named: P1 within residue: .R<PRF 1>
+Created a new atom named: P2 within residue: .R<PRF 1>
+Created a new atom named: H1 within residue: .R<PRF 1>
+Created a new atom named: H2 within residue: .R<PRF 1>
+Created a new atom named: H3 within residue: .R<PRF 1>
+Created a new atom named: H4 within residue: .R<PRF 1>
+Created a new atom named: H5 within residue: .R<PRF 1>
+Created a new atom named: H6 within residue: .R<PRF 1>
+Created a new atom named: H7 within residue: .R<PRF 1>
+Created a new atom named: H8 within residue: .R<PRF 1>
+Created a new atom named: H9 within residue: .R<PRF 1>
+Created a new atom named: H10 within residue: .R<PRF 1>
+Created a new atom named: H11 within residue: .R<PRF 1>
+Created a new atom named: H12 within residue: .R<PRF 1>
+Created a new atom named: H13 within residue: .R<PRF 1>
+Created a new atom named: H14 within residue: .R<PRF 1>
+Created a new atom named: H15 within residue: .R<PRF 1>
+Created a new atom named: H16 within residue: .R<PRF 1>
+Created a new atom named: H17 within residue: .R<PRF 1>
+Created a new atom named: H18 within residue: .R<PRF 1>
+Created a new atom named: H19 within residue: .R<PRF 1>
+Created a new atom named: H20 within residue: .R<PRF 1>
+Created a new atom named: H21 within residue: .R<PRF 1>
+
+/Applications/amber20/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+Created a new atom named: H1 within residue: .R<MET 2>
+Created a new atom named: H2 within residue: .R<MET 2>
+Created a new atom named: H3 within residue: .R<MET 2>
+Created a new atom named: OXT within residue: .R<LEU 254>
+
+/Applications/amber20/bin/teLeap: Warning!
+One sided connection. Residue (TP3) missing connect0 atom.
+
+/Applications/amber20/bin/teLeap: Warning!
+One sided connection. Residue (default_name) missing connect1 atom.
+Created a new atom named: H1 within residue: .R<MET 353>
+Created a new atom named: H2 within residue: .R<MET 353>
+Created a new atom named: H3 within residue: .R<MET 353>
+Created a new atom named: OXT within residue: .R<ARG 553>
+
+/Applications/amber20/bin/teLeap: Warning!
+One sided connection. Residue (TP3) missing connect0 atom.
+  total atoms in file: 7431
+  Leap added 372 missing atoms according to residue templates:
+       372 H / lone pairs
+  The file contained 66 atoms not in residue templates
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for C15)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for N2)
+ (using default radius 1.500000 for N3)
+ (using default radius 1.500000 for N4)
+ (using default radius 1.500000 for N5)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for O10)
+ (using default radius 1.500000 for O11)
+ (using default radius 1.500000 for O12)
+ (using default radius 1.500000 for O13)
+ (using default radius 1.500000 for O14)
+ (using default radius 1.500000 for O15)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for O3)
+ (using default radius 1.500000 for O4)
+ (using default radius 1.500000 for O5)
+ (using default radius 1.500000 for O6)
+ (using default radius 1.500000 for O7)
+ (using default radius 1.500000 for O8)
+ (using default radius 1.500000 for O9)
+ (using default radius 1.500000 for P1)
+ (using default radius 1.500000 for P2)
+ (using default radius 1.500000 for OXT)
+ (using default radius 1.500000 for OXT)
+  Solute vdw bounding box:              78.962 52.250 56.476
+  Total bounding box for atom centers:  102.962 76.250 80.476
+  Solvent unit box:                     18.774 18.774 18.774
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for C3)
+ (using default radius 1.500000 for C4)
+ (using default radius 1.500000 for C5)
+ (using default radius 1.500000 for C6)
+ (using default radius 1.500000 for C7)
+ (using default radius 1.500000 for C8)
+ (using default radius 1.500000 for C9)
+ (using default radius 1.500000 for C10)
+ (using default radius 1.500000 for C11)
+ (using default radius 1.500000 for C12)
+ (using default radius 1.500000 for C13)
+ (using default radius 1.500000 for C14)
+ (using default radius 1.500000 for C15)
+ (using default radius 1.500000 for N1)
+ (using default radius 1.500000 for N2)
+ (using default radius 1.500000 for N3)
+ (using default radius 1.500000 for N4)
+ (using default radius 1.500000 for N5)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for O10)
+ (using default radius 1.500000 for O11)
+ (using default radius 1.500000 for O12)
+ (using default radius 1.500000 for O13)
+ (using default radius 1.500000 for O14)
+ (using default radius 1.500000 for O15)
+ (using default radius 1.500000 for O2)
+ (using default radius 1.500000 for O3)
+ (using default radius 1.500000 for O4)
+ (using default radius 1.500000 for O5)
+ (using default radius 1.500000 for O6)
+ (using default radius 1.500000 for O7)
+ (using default radius 1.500000 for O8)
+ (using default radius 1.500000 for O9)
+ (using default radius 1.500000 for P1)
+ (using default radius 1.500000 for P2)
+ (using default radius 1.500000 for OXT)
+ (using default radius 1.500000 for OXT)
+  Total vdw box size:                   106.253 79.440 83.804 angstroms.
+  Volume: 707367.032 A^3 
+  Mass > 354807.736 amu,  Density > 0.833 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 16694 residues.
+Writing pdb file: holo_1gpw_no_ions_solvated.pdb
+   printing CRYST1 record to PDB file with box info
+Checking Unit.
+
+/Applications/amber20/bin/teLeap: Warning!
+The unperturbed charge of the unit (-9.000000) is not zero.
+FATAL:  Atom .R<PRF 1>.A<C1 1> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C2 2> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C3 3> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C4 4> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C5 5> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C6 6> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C7 7> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C8 8> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C9 9> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C10 10> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C11 11> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C12 12> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C13 13> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C14 14> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<C15 15> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<N1 16> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<N2 17> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<N3 18> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<N4 19> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<N5 20> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O1 21> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O10 22> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O11 23> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O12 24> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O13 25> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O14 26> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O15 27> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O2 28> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O3 29> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O4 30> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O5 31> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O6 32> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O7 33> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O8 34> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<O9 35> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<P1 36> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<P2 37> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H1 38> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H2 39> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H3 40> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H4 41> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H5 42> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H6 43> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H7 44> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H8 45> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H9 46> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H10 47> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H11 48> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H12 49> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H13 50> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H14 51> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H15 52> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H16 53> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H17 54> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H18 55> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H19 56> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H20 57> does not have a type.
+FATAL:  Atom .R<PRF 1>.A<H21 58> does not have a type.
+FATAL:  Atom .R<MET 2>.A<H1 18> does not have a type.
+FATAL:  Atom .R<MET 2>.A<H2 19> does not have a type.
+FATAL:  Atom .R<MET 2>.A<H3 20> does not have a type.
+FATAL:  Atom .R<LEU 254>.A<OXT 20> does not have a type.
+FATAL:  Atom .R<MET 353>.A<H1 18> does not have a type.
+FATAL:  Atom .R<MET 353>.A<H2 19> does not have a type.
+FATAL:  Atom .R<MET 353>.A<H3 20> does not have a type.
+FATAL:  Atom .R<ARG 553>.A<OXT 25> does not have a type.
+
+/Applications/amber20/bin/teLeap: Fatal Error!
+Failed to generate parameters
+
+Exiting LEaP: Errors = 1; Warnings = 8; Notes = 1.
