@@ -5,4 +5,4 @@ Software required:
 
 AMBER20 (requires license)
 
-AMBERTOOLS20 (free to downloa) http://ambermd.org/tutorials/pengfei/index.htm
+AMBERTOOLS20 (free to download) http://ambermd.org/tutorials/pengfei/index.htm
