@@ -1,7 +1,0 @@
-source leaprc.protein.ff14SB #Source leaprc file for ff14SB protein force field
-source leaprc.water.tip3p #Source leaprc file for TIP3P water model
-mol = loadpdb FILENAME.pdb #Load PDB file that has evaluated protonation states 
-solvatebox mol TIP3PBOX 12 #Solvate the complex with a cubic water box
-savepdb mol FILENAME_solvated.pdb
-saveamberparm mol FILENAME.prmtop FILENAME.rst7 #Save AMBER topology and coordinate files... we won't use these because they don't have the ions yet, but when you do this tleap gives you extra info that might be useful
-quit #Quit tleap program
