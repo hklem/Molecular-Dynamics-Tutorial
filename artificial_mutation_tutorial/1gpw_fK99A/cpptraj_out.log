@@ -1,0 +1,68 @@
+
+CPPTRAJ: Trajectory Analysis. V4.25.6
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 02/17/21 13:20:27
+| Available memory: 603.519 MB
+
+INPUT: Reading input from 'make_rst7_from_first_frame.inp'
+  [clear all]
+	Clearing Actions.
+	Clearing input trajectories/ensembles.
+	Clearing reference coordinates.
+	Clearing output trajectories.
+	Clearing topologies.
+	Clearing Analyses.
+	Clearing data files.
+	Clearing data sets.
+  [parm 1gpw_fK99A.prmtop]
+	Reading '1gpw_fK99A.prmtop' as Amber Topology
+	Radius Set: modified Bondi radii (mbondi)
+  [trajin 1gpw_fK99A.prod_2.1.dcd 1 1 1]
+	Reading '1gpw_fK99A.prod_2.1.dcd' as Amber NetCDF
+  [trajout 1gpw_fK99A_prod_2.1_first_frame.rst7]
+	Writing '1gpw_fK99A_prod_2.1_first_frame.rst7' as Amber Restart
+  [go]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: 1gpw_fK99A.prmtop, 56625 atoms, 16982 res, box: Orthogonal, 16530 mol, 16457 solvent
+
+INPUT TRAJECTORIES (1 total):
+ 0: '1gpw_fK99A.prod_2.1.dcd' is a NetCDF AMBER trajectory with coordinates, time, box, Parm 1gpw_fK99A.prmtop (Orthogonal box) (reading 1 of 2000)
+  Coordinate processing will occur on 1 frames.
+
+OUTPUT TRAJECTORIES (1 total):
+  '1gpw_fK99A_prod_2.1_first_frame.rst7' (1 frames) is an AMBER restart file
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTIVE OUTPUT TRAJECTORIES (1):
+  1gpw_fK99A_prod_2.1_first_frame.rst7 (coordinates, time, box)
+----- 1gpw_fK99A.prod_2.1.dcd (1-1, 1) -----
+100% Complete.
+
+Read 1 frames and processed 1 frames.
+TIME: Avg. throughput= 21.9553 frames / second.
+
+ACTION OUTPUT:
+TIME: Analyses took 0.0000 seconds.
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.04%)
+TIME:		Trajectory Process : 0.0455 s ( 99.89%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.02%)
+TIME:		Other              : 0.0000 s (  0.00%)
+TIME:	Run Total 0.0456 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.1507 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

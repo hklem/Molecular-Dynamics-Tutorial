@@ -1,0 +1,192 @@
+# 01/25/21 12:13:58
+parm *prmtop
+trajin *mdcrd
+trajin *rst
+quit
+# 01/27/21 12:26:45
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+trajout 1gpw_fK99A.heating.dcd
+go
+exit
+# 01/27/21 12:28:22
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+autoimage
+trajout 1gpw_fK99A.heating.dcd
+go
+exit
+# 01/27/21 12:32:40
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+autoimage anchor :1-454
+trajount 1gpw_fK99A.heating.dcd
+trajout 1gpw_fK99A.heating.dcd
+go
+exit
+# 01/27/21 12:40:52
+parm *prmtop
+trajin 1gpw_fK99A.equilib.nc
+autoimage anchor :1-454
+trajout 1gpw_fK99A.equilib.dcd
+go
+exit
+# 01/27/21 12:44:04
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+autoimage anchor :1-454
+trajout 1gpw_fK99A.prod_1.1.dcd
+# 01/27/21 13:19:03
+parm *prmtop
+autoimage anchor :1-454
+trajin 1gpw_fK99A.prod_1.2.dcd
+autoimage anchor :1-454
+trajout 1gpw_fK99A.prod_1.2.dcd
+# 01/27/21 13:20:25
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+trajin 1gpw_fK99A.prod_1.2.dcd
+exit
+# 01/27/21 13:27:59
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+autoimage 123
+autoimage :123
+trajout 1gpw_fK99A.prod_1.1_anchored123.dcd
+go
+exit
+# 01/27/21 13:29:21
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+trajout 1gpw_fK99A.prod_1.1_not_anchored.dcd
+go
+exit
+# 01/27/21 13:31:19
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+trajout 1gpw_fK99A.heating_not_anchored.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+anchor :1-454
+autoimage anchor :1-454
+trajout 1gpw_fK99A.heating_anchored1-454.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.heating.nc
+autoimage anchor :123
+trajout 1gpw_fK99A.heating_anchored123.dcd
+go
+exit
+# 01/27/21 13:38:04
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.2.dcd
+trajout 1gpw_fK99A.prod_1.2_not_autoimaged.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.2.dcd
+autoimage
+trajout 1gpw_fK99A.prod_1.2_autoimaged_no_anchor.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.2.dcd
+autoimage anchor :1-454
+trajout 1gpw_fK99A.prod_1.2__anchor1-454.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.2.dcd
+autoimage anchor :123
+trajout 1gpw_fK99A.prod_1.2__anchor123.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+autoimage anchor :123
+trajout 1gpw_fK99A.prod_1.1_anchor123.dcd
+go
+clear all
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.1.dcd
+autoimage anchor :1-454
+trajout 1gpw_fK99A.prod_1.1_anchor1-454.dcd
+go
+exit
+# 01/27/21 13:55:12
+parm *prmtop
+ref 1gpw_fK99A.pdb
+ref = 1gpw_fK99A.pdb
+reference 1gpw_fK99A.pdb
+reference 1gpw_fK99A.prmtop
+reference 1gpw_fK99A.rst7
+trajin 1gpw_fK99A.prod_1.2.dcd
+align :1-454 reference
+trajout 1gpw_fK99A.prod_1.2_aligned_to_pdb.dcd
+go
+exit
+# 01/27/21 13:59:29
+parm *prmtop
+reference 1gpw_fK99A.rst7
+trajin 1gpw_fK99A.prod_1.2.dcd
+align :1-454 reference
+trajout 1gpw_fK99A.prod_1.2_aligned_to_rst7.dcd
+go
+clear all
+parm *prmtop
+reference 1gpw_fK99A.rst7
+trajin 1gpw_fK99A.prod_1.2.dcd
+align reference
+trajout 1gpw_fK99A.prod_1.2_align_all_to_rst7.dcd
+go
+clear all
+parm *prmtop
+reference 1gpw_fK99A.pdb
+trajin 1gpw_fK99A.prod_1.2.dcd
+align reference
+trajout 1gpw_fK99A.prod_1.2_align_all_to_pdb.dcd
+go
+exit
+# 01/27/21 14:24:12
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.4.dcd
+autoimage
+trajout 1gpw_fK99A.prod_1.4.dcd
+# 01/27/21 14:46:34
+parm *prmtop
+trajin 1gpw_fK99A.prod_1.4.dcd
+autoimage
+trajout 1gpw_fK99A.prod_1.4_autoimaged.dcd
+go
+exit
+# 02/16/21 11:43:15
+parm 1gpw_fK99A.prmtop
+parminfo
+trajin 1gpw_fK99A.rst7
+list
+wot
+quit
+# 02/17/21 12:28:41
+parm 1gpw_fK99A.prmtop
+trajin 1gpw_fK99A.prod_2.1.dcd
+trajout 1gpw_fK99A.prod_2.1.nc
+go
+qut
+exit
+# 02/17/21 12:36:45
+parm 1gpw_fK99A.prmtop
+trajin 1gpw_fK99A.prod_2.1.dcd 1 1 1
+list
+trajout 1gpw_fK99A.prod_2.1_first_frame.dcd
+go
+exit
+# 02/17/21 12:49:41
+parm 1gpw_fK99A.prmtop
+trajin 1gpw_fK99A.prod_2.1.dcd
+trajout 1gpw_fK99A.prod_2.1_actualdcd_first_frame.dcd 1 1 1
+go
+exi
+exit
