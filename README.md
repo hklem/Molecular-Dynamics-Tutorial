@@ -10,3 +10,8 @@ AMBERTOOLS20 (free to download) http://ambermd.org/tutorials/pengfei/index.htm
 VMD https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD
 
 PyMol https://pymol.org/2/
+
+
+
+A great resource I recommend to the novice: https://www.livecomsjournal.org/article/5957-best-practices-for-foundations-in-molecular-simulations-article-v1-0
+
